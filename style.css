@@ -79,6 +79,7 @@ header img {
 
 
 .section2 {
+    height: 100vh;
     width: 80%;
     margin: 30px auto;
 
@@ -115,4 +116,15 @@ header img {
     font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+div.section3 {
+    background-color: #1e1e1e;
+    width: 80%;
+    margin: 40px auto 0 auto;
+}
+
+.left {
+    float: left;
+    display: block;
 }
