@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Saira Condensed', 'Saira', sans-serif;
+}
+
+header {
+    background-color: #29a6dc;
+    height: 100vh;
+    position: relative;
+}
+
+header > * {
+    color: white;
+    position: absolute;
+
+
+}
+
+header h1 {
+
+    font-weight: bold;
+    font-size: 120px;
+    text-transform: uppercase;
+    left: 10%;
+    top: 20%;
+}
+
+header h2 {
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    top: 50%;
+    left: 10%;
+
+
+}
+
+header h3 {
+    font-weight: normal;
+    font-size: 60px;
+    text-transform: uppercase;
+    top: 60%;
+    left: 10%;
+    letter-spacing: 2px;
+
+}
+
+header button {
+
+    height: 90px;
+    font-family: Saira;
+    font-size: 36px;
+    background-color: transparent;
+    color: white;
+    font-weight: 300;
+    padding: 0 30px;
+    text-transform: uppercase;
+    top: 80%;
+    left: 10%;
+    border: 1px solid white;
+}
+
+header button:hover {
+    background-color: white;
+    color: #111;
+}
+
+header img {
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.section2 {
+    width: 80%;
+    margin: 30px auto;
+
+}
+
+.img1,
+.img2,
+.img3 {
+    margin: 40px 10px;
+    width: 30%;
+    display: block;
+    float: left;
+
+}
+
+.section2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-transform: uppercase;
+
+}
+
+.section2 p {
+    font-family: Saira;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
