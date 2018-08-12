@@ -135,6 +135,15 @@ header img {
     margin: 0 auto;
     display: block;
     height: 400px;
+    padding-bottom: 30px;
+}
+
+.right {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    height: 400px;
+    padding-bottom: 30px;
 }
 
 .left img {
@@ -143,11 +152,41 @@ header img {
 
 }
 
+.right img {
+    width: 50%;
+    height: 100%;
+}
+
 .rn {
     display: block;
     float: right;
     width: 50%;
     background-color: #ff4f2c;
+    height: 100%;
+
+}
+
+.rn h2 {
+    font-family: Saira;
+    font-size: 36px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    margin: 30px 40px 10px 0;
+    padding: 20px 40px;
+}
+
+.rn p {
+
+    font-family: Saira;
+    font-size: 21px;
+    padding: 20px 40px 40px 40px;
+}
+
+.ln {
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: #0170ba;
     height: 100%;
 
 }
