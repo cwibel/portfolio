@@ -178,7 +178,7 @@ header img {
 .rn p {
 
     font-family: Saira;
-    font-size: 21px;
+    font-size: 18px;
     padding: 20px 40px 40px 40px;
 }
 
@@ -189,4 +189,20 @@ header img {
     background-color: #0170ba;
     height: 100%;
 
+}
+
+.ln h2 {
+    display: block;
+    font-family: Saira;
+    font-size: 36px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    margin: 30px 0 10px 40px;
+    padding: 20px 40px;
+}
+
+.ln p {
+    font-family: Saira;
+    font-size: 18px;
+    padding: 20px 40px 40px;
 }
