@@ -369,7 +369,7 @@ header img {
 }
 
 .form button {
-
+    width: 440px;
     height: 72px;
     font-family: Saira;
     font-size: 36px;
