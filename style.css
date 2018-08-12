@@ -120,7 +120,7 @@ header img {
     font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .section3 {
@@ -259,54 +259,88 @@ header img {
 .hobby {
     width: 100%;
     float: left;
+    margin-bottom: 40px;
 }
 
-.item1 {
+.item {
+
     float: left;
     display: block;
     height: 640px;
 
     width: 50%;
+}
+
+.item:nth-child(2) {
+
     background-image: url(img/hobby1.jpg);
 
 
 }
 
-.item2 {
-    float: left;
-    display: block;
-    height: 640px;
+.item:nth-child(3) {
 
-    width: 50%;
     background-image: url(img/hobby2.jpg);
 
 
 }
 
-.item3 {
-    float: left;
-    display: block;
-    height: 640px;
+.item:nth-child(4) {
 
-    width: 50%;
     background-image: url(img/hobby3.jpg);
 
 
 }
 
-.item4 {
-    float: left;
-    display: block;
-    height: 640px;
-    width: 50%;
+.item:nth-child(5) {
+
     background-image: url(img/hobby4.jpg);
 
 
 }
 
 .hobby p {
+    opacity: 0;
     color: white;
     font-family: Saira;
     font-size: 60px;
-    padding: 50% 50%
+    text-align: center;
+    transition: 1s;
+    line-height: 640px;
+}
+
+
+
+.hobby p:hover {
+    background-color: rgba(255, 79, 44, 0.5);
+    opacity: 1;
+
+}
+
+.cont {
+    background-color: #111;
+
+}
+
+.cont h1 {
+    color: white;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+input {
+
+    width: 440px;
+    height: 64px;
+    margin-bottom: 40px;
+}
+
+.msg {
+    display: block;
+    height: 440px;
+    width: 240px;
 }
