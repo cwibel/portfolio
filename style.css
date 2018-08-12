@@ -259,7 +259,6 @@ header img {
 .hobby {
     width: 100%;
     float: left;
-    margin-bottom: 40px;
 }
 
 .item {
@@ -307,6 +306,7 @@ header img {
     text-align: center;
     transition: 1s;
     line-height: 640px;
+    height: 640px;
 }
 
 
@@ -318,29 +318,78 @@ header img {
 }
 
 .cont {
+    width: 100%;
+    float: left;
     background-color: #111;
+    padding-bottom: 60px;
 
 }
 
-.cont h1 {
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cont .heading {
     color: white;
 }
 
 .form {
-    width: 60%;
+    width: 45%;
+    float: left;
     margin: 0 auto;
-
 }
 
-input {
-
+.in2 {
     width: 440px;
     height: 64px;
+    font-size: 24px;
+    font-family: Saira;
     margin-bottom: 40px;
 }
 
 .msg {
-    display: block;
-    height: 440px;
-    width: 240px;
+    width: 440px;
+    height: 240px;
+    font-size: 24px;
+}
+
+.icons {
+    padding-left: 20px;
+    float: left;
+    width: 10%;
+}
+
+.dane {
+    padding-left: 80px;
+    width: 45% font-family: Saira;
+    font-size: 24px;
+    color: white;
+    line-height: 78px;
+}
+
+.form button {
+
+    height: 72px;
+    font-family: Saira;
+    font-size: 36px;
+    background-color: transparent;
+    color: white;
+    font-weight: 300;
+    padding: 0 30px;
+    text-transform: uppercase;
+
+    border: 1px solid white;
+
+}
+
+footer {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: #29a6dc;
+    text-transform: uppercase;
+    font-size: 24px;
+
+
 }
