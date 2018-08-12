@@ -253,3 +253,60 @@ header img {
     padding-top: 50px;
 
 }
+
+
+
+.hobby {
+    width: 100%;
+    float: left;
+}
+
+.item1 {
+    float: left;
+    display: block;
+    height: 640px;
+
+    width: 50%;
+    background-image: url(img/hobby1.jpg);
+
+
+}
+
+.item2 {
+    float: left;
+    display: block;
+    height: 640px;
+
+    width: 50%;
+    background-image: url(img/hobby2.jpg);
+
+
+}
+
+.item3 {
+    float: left;
+    display: block;
+    height: 640px;
+
+    width: 50%;
+    background-image: url(img/hobby3.jpg);
+
+
+}
+
+.item4 {
+    float: left;
+    display: block;
+    height: 640px;
+    width: 50%;
+    background-image: url(img/hobby4.jpg);
+
+
+}
+
+.hobby p {
+    color: white;
+    font-family: Saira;
+    font-size: 60px;
+    padding: 50% 50%
+}
